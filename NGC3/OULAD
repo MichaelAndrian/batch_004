@@ -1,0 +1,3 @@
+UPDATE studentInfo
+	
+	FOREIGN KEY (id_student) REFERENCES studentRegistration(id_student);
